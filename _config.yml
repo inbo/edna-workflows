@@ -1,8 +1,7 @@
 # SITE SETTINGS
 title: eDNA workflows
 author: INBO
-url: "https://inbo.github.io/edna-workflows/"
-baseurl: "" # Otherwise GitHub Pages will set this to "/craywatch"
+baseurl: "/edna-workflows" # Remove once custom domain is enabled (use url property instead)
 
 # SOCIAL PROFILES
 social:
