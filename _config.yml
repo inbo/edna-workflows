@@ -1,5 +1,5 @@
 # SITE SETTINGS
-title: (e)DNA workflows
+title: eDNA workflows
 author: INBO
 url: "https://inbo.github.io/edna-workflows/"
 baseurl: "" # Otherwise GitHub Pages will set this to "/craywatch"
