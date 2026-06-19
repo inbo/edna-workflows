@@ -23,6 +23,45 @@ toc: true
 - Which database/repository uploads are required by the reporting?
 - Is there an agreed metadata approach?
 
+## Sample collection
+
+- Have the sampling techniques been written down?
+- Has a copy of this description been archived?
+- Is it clearly noted in the sampling sheet where data and samples are stored or kept?
+- Have the agreed naming convention & folder structure been followed?
+- Has a copy of the sampling sheet been backed up?
+- Is it necessary to update the DMP?
+
+## Lab analyses
+
+- Have all relevant lab protocol(s) been written down?  
+- Have copies of the lab protocol(s) been archived?
+- Have the samples all been named and stored as they should be? 
+- Will the DNA specimens be deposited in a collection?
+- Has a copy of the sampling sheet been backed up?
+- Has a copy of the raw (DNA) data been archived?
+- Have the agreed naming convention & folder structure been followed? 
+- Is it necessary to update the DMP?
+
+## Bioinformatics
+
+- Have the analysis protocols/steps been written down?
+- Have copies of the analysis protocols/steps been archived?
+- Have copy/copies of the reference database(s) been archived OR has their version/publication date been noted? 
+- Have copy/copies of the “operational data” been archived?
+- Is it useful to also archive a copy of other data?
+- Have the agreed naming convention & folder structure been followed?  
+- Is it necessary to update the DMP?
+
+## Dataprocessing
+
+- Have the analysis protocols/steps been written down?   
+- Have copies of the analysis protocols/steps been archived?
+- Have copy/copies of the “operational data” been archived?
+- Is it useful to also archive a copy of certain data?
+- Have the agreed naming convention & folder structure been followed? 
+- Is it necessary to update the DMP?
+
 
 
 
