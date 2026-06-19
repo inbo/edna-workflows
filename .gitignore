@@ -11,4 +11,13 @@ vendor/
 # Mac OS
 .DS_Store
 .Rproj.user
+
+#RStudio (posit)
 .positai
+
+# Python
+*.pyc
+*/__pycache__
+
+# Local site
+docs-local/
