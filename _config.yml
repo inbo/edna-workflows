@@ -1,0 +1,44 @@
+# SITE SETTINGS
+title: (e)DNA workflows
+author: INBO
+url: "https://inbo.github.io/edna-workflows/"
+baseurl: "" # Otherwise GitHub Pages will set this to "/craywatch"
+
+# SOCIAL PROFILES
+social:
+  bluesky: inbo.be
+  github: inbo/edna-workflows
+
+# THEME SETTINGS (ALL OPTIONAL)
+theme: minima # Fallback theme
+remote_theme: peterdesmet/petridish@3.2
+posts_on_home: false
+archive_permalink: /blog/
+github_edit: true
+colors:
+  links: "#c04384"  # Primary INBO color
+  banner: "#c04384" # Primary INBO color
+  footer: "#356196" # Secundary INBO color (used for buttons or other banners)
+font_serif: true  # Font type for page content: serif (default) or slightly smaller sans-serif
+rounded_corners: true # Enable (default) rounded corners on boxes and buttons
+logo: /assets/images/guardias_logo.png
+logo_and_title: true  # If logo is enabled, show title as well (default)
+
+# BUILD SETTINGS
+repository: inbo/edna-workflows
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+
+# FRONTMATTER DEFAULTS
+defaults:
+  - scope:
+      type: posts
+    values:
+      permalink: "/blog/:year/:slug/"
