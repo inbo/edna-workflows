@@ -25,6 +25,7 @@ toc: true
 
 ## Sample collection
 
+{:.alert .alert-warning .mt-3}
 - Have the sampling techniques been written down?
 - Has a copy of this description been archived?
 - Is it clearly noted in the sampling sheet where data and samples are stored or kept?
@@ -34,6 +35,7 @@ toc: true
 
 ## Lab analyses
 
+{:.alert .alert-warning .mt-3}
 - Have all relevant lab protocol(s) been written down?  
 - Have copies of the lab protocol(s) been archived?
 - Have the samples all been named and stored as they should be? 
@@ -45,6 +47,7 @@ toc: true
 
 ## Bioinformatics
 
+{:.alert .alert-warning .mt-3}
 - Have the analysis protocols/steps been written down?
 - Have copies of the analysis protocols/steps been archived?
 - Have copy/copies of the reference database(s) been archived OR has their version/publication date been noted? 
@@ -55,6 +58,7 @@ toc: true
 
 ## Dataprocessing
 
+{:.alert .alert-warning .mt-3}
 - Have the analysis protocols/steps been written down?   
 - Have copies of the analysis protocols/steps been archived?
 - Have copy/copies of the “operational data” been archived?
@@ -62,6 +66,13 @@ toc: true
 - Have the agreed naming convention & folder structure been followed? 
 - Is it necessary to update the DMP?
 
+## Output/data publication
 
-
+{:.alert .alert-warning .mt-3}
+- Is the DMP in order? Have all necessary actions been carried out?   
+- Check by the scientist (e.g., sample check) - have the samples been correctly entered into the CMS?
+- Is all relevant metadata in order?
+- Have the agreed naming convention & folder structure been followed?
+- Is it useful and/or necessary to also archive a copy of certain data?
+- Is the dataset mentioned in relevant outputs/publications?
 
