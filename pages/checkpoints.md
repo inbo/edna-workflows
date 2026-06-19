@@ -11,7 +11,7 @@ toc: true
 
 ## Overview
 
-![checkpoints](/assets/images/overview_checkpoints.png)
+![checkpoints]({{ '/assets/images/overview_checkpoints.png' | relative_url }})
 
 ## Preparation
 
