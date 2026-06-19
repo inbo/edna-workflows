@@ -2,7 +2,10 @@
 
 - text: Home # Note that users can also reach the homepage by clicking the site's title on the left in the navbar
   href: /
-# - text: Documentation
+- text: Objective
+  href: /objective/
+- text: Checkpoints
+  href: /checkpoints/
 #   menu: # Dropdown menu (one level deep only)
 #   - text: Installation
 #     href: /docs/installation/
