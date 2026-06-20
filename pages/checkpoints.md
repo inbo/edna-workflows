@@ -93,8 +93,8 @@ Have you changed something about the sampling techniques or conventions? Then th
 - Have copies of the lab protocol(s) been archived?
 - Have the samples all been named and stored as they should be? 
 - Will the DNA specimens be deposited in a collection?
-- Has a copy of the sampling sheet been backed up?
-- Has a copy of the raw (DNA) data been archived?
+- Has the sampling sheet been backed up?
+- Has the raw (DNA) data been archived?
 - Have the agreed naming convention & folder structure been followed? 
 - Is it necessary to update the DMP?
 
@@ -105,7 +105,7 @@ Have you changed something about the sampling techniques or conventions? Then th
 - Have copies of the analysis protocols/steps been archived?
 - Have copy/copies of the reference database(s) been archived OR has their version/publication date been noted? 
 - Have copy/copies of the “operational data” been archived?
-- Is it useful to also archive a copy of other data?
+- Is it useful to also archive other data?
 - Have the agreed naming convention & folder structure been followed?  
 - Is it necessary to update the DMP?
 
