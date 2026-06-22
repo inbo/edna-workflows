@@ -106,7 +106,7 @@ Some protocols could be manufacturer specific.
 
 ### Have copies of the lab protocol(s) been archived?
 
-**For reviewers: this text is the same as the one in previous chapter (Sample collection). Delete this text after review.**
+**For reviewers: this text is the same as the one in previous chapter (Sample collection).**
 
 Pay attention to document and apply version control and use already existing templates where possible. Deposit this documentation in online repositories, e.g. [zenodo](https://zenodo.org/), or institute specific tools (INBO archive, INBO protocol helper) or cloud storage drives (INBO Google drive). If it is described in the DMP, ensure that the DMP is deposited in the Research Information Management System (RIMS) of your institute (INBO's [PURE](https://pureportal.inbo.be/nl/)).
 
@@ -131,12 +131,12 @@ There may be an embargo on releasing the data, which allows analyses to be finis
 
 ### Has the raw (DNA) data been archived?
 
-As soon as possible, after the completion of the analyses, archive the raw (DNA) data, e.g. in a cloud storage drives (INBO Google drive).
+As soon as possible, after the completion of the analyses, archive the raw (DNA) data, e.g. in a cloud storage drives (INBO Google drive). Raw data files can be very large. Make sure you have sufficient storage space available.
 
 ### Have the agreed naming convention & folder structure been followed?
 
 **Not present in original document.**
-This step is important to automatise workflows and avoid mistakes in the data analyses.
+This step is important to automatise workflows and avoid mistakes in the next steps.
 
 ### Is it necessary to update the DMP?
 
@@ -146,12 +146,51 @@ Are there aspects of the DMP that have changed and/or need to be expanded? If th
 
 {:.alert .alert-info .mt-3}
 - Have the analysis protocols/steps been written down?
-- Have copies of the analysis protocols/steps been archived?
-- Have copy/copies of the reference database(s) been archived OR has their version/publication date been noted? 
-- Have copy/copies of the “operational data” been archived?
+- Have the analysis protocols/steps been archived?
+- Have the reference database(s) been archived OR has their version/publication date been noted? 
+- Have the “operational data” been archived?
 - Is it useful to also archive other data?
 - Have the agreed naming convention & folder structure been followed?  
 - Is it necessary to update the DMP?
+
+### Have the analysis protocols/steps been written down?
+
+Examples:
+- A standard set of steps to demultiplex
+- A step-by-step protocol of the analysis
+
+At INBO, we try to document these steps on GitHub for version control. See the code base in repository [`inbo/edna-metabarcoding`](https://github.com/inbo/edna-metabarcoding). The development documentation and tutorials are versioned at confluence-eDNA-bodem.
+
+**For reviewers. confluence-eDNA-bodem: confluence is not used by INBO anymore. But if the page is still available and open, please add link waiting for alternative. Otherwise, update the text as wished**.
+
+### Have the analysis protocols/steps been archived?
+
+**For reviewers: this text is the same as the one in previous chapter (Sample collection).**
+
+Pay attention to document and apply version control and use already existing templates where possible. Deposit this documentation in online repositories, e.g. [zenodo](https://zenodo.org/), or institute specific tools (INBO archive, INBO protocol helper) or cloud storage drives (INBO Google drive). If it is described in the DMP, ensure that the DMP is deposited in the Research Information Management System (RIMS) of your institute (INBO's [PURE](https://pureportal.inbo.be/nl/)).
+
+### Have the reference database(s) been archived OR has their version/publication date been noted?
+
+Deposit on [zenodo](https://zenodo.org/) the reference database(s). Archive the used reference database(s) also internally if possible (**internal archive option added by me!**). Note the version/date used and provide a link to the zenodo deposit.
+If the internal multihit list was used, also note the version/date of it.
+
+### Have the “operational data” been archived?
+
+This about archiving the ‘outputs’ of this step, e.g., the Operation Taxonomic Units (OTU) tables.
+
+### Is it useful to also archive other data?
+
+Per project, consider whether there are ‘savepoints’ during the bioinformatics step, e.g., demultiplexed data, data coming from a time-consuming step for which it is worth archiving a copy as a backup, data being supplied to clients/partners, data used for other internal projects and which must be published later.
+Ensure there is a clear `README` with all savepoints, including the script/steps taken to reach that point.
+
+### Have the agreed naming convention & folder structure been followed?
+
+**Not present in original document.**
+This step is important to automatise workflows and avoid mistakes in the next steps.
+
+### Is it necessary to update the DMP?
+
+Are there aspects of the DMP that have changed and/or need to be expanded? If there is a deviation from this workflow and/or the protocol(s) used, **update** the DMP.
 
 ## Dataprocessing
 
