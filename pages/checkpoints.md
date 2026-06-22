@@ -147,10 +147,10 @@ Are there aspects of the DMP that have changed and/or need to be expanded? If th
 {:.alert .alert-info .mt-3}
 - Have the analysis protocols/steps been written down?
 - Have the analysis protocols/steps been archived?
-- Have the reference database(s) been archived OR has their version/publication date been noted? 
+- Have the reference database(s) been archived OR has their version/publication date been noted?
 - Have the “operational data” been archived?
 - Is it useful to also archive other data?
-- Have the agreed naming convention & folder structure been followed?  
+- Have the agreed naming convention & folder structure been followed?
 - Is it necessary to update the DMP?
 
 ### Have the analysis protocols/steps been written down?
@@ -190,25 +190,94 @@ This step is important to automatise workflows and avoid mistakes in the next st
 
 ### Is it necessary to update the DMP?
 
+**Note: the same as in previous chapters.**
 Are there aspects of the DMP that have changed and/or need to be expanded? If there is a deviation from this workflow and/or the protocol(s) used, **update** the DMP.
 
 ## Dataprocessing
 
 {:.alert .alert-info .mt-3}
-- Have the analysis protocols/steps been written down?   
-- Have copies of the analysis protocols/steps been archived?
-- Have copy/copies of the “operational data” been archived?
-- Is it useful to also archive a copy of certain data?
+- Has the data analysis been written down?   
+- Have the analysis protocols/steps been archived?
+- Have the “operational data” been archived?
+- Is it useful to also archive certain data?
 - Have the agreed naming convention & folder structure been followed? 
 - Is it necessary to update the DMP?
+
+### Has the data analysis been written down
+
+Examples:
+- A standard set of steps to perform a specific statistical analysis
+- Relevant scripts and phyloseq objects
+
+Note also the necessary extra information to make the dataprocesiing reproducible (e.g., in R, use `{Renv}` package, or at least document the package and Opearting System versions used, e.g. by writing down the output of `sessionInfo()`).
+Use version control, e.g. via git and GitHub.
+
+### Have the analysis protocols/steps been archived?
+
+**For reviewers: this text is the same as the one in previous chapter (Sample collection).**
+
+Pay attention to document and apply version control and use already existing templates where possible. Deposit the data analysis scripts in online repositories, e.g. [zenodo](https://zenodo.org/), or institute specific tools (INBO archive, INBO protocol helper) or cloud storage drives (INBO Google drive). If it is described in the DMP, ensure that the DMP is deposited in the Research Information Management System (RIMS) of your institute (INBO's [PURE](https://pureportal.inbo.be/nl/)).
+
+### Have the “operational data” been archived?
+
+When a dataset is ‘ready’ (i.e., will not be further edited), it might be a good moment to archive it.
+
+### Is it useful to also archive certain data?
+
+**For reviewers: this text is the same as the one in previous chapter (Bioinformatics).**
+
+Per project, consider whether there are ‘savepoints’ during the bioinformatics step, e.g., demultiplexed data, data coming from a time-consuming step for which it is worth archiving a copy as a backup, data being supplied to clients/partners, data used for other internal projects and which must be published later.
+Ensure there is a clear `README` with all savepoints, including the script/steps taken to reach that point.
+
+### Have the agreed naming convention & folder structure been followed?
+
+**Not present in original document.**
+This step is important to automatise workflows and avoid mistakes in the next steps.
+
+### Is it necessary to update the DMP?
+
+Are there aspects of the DMP that have changed and/or need to be expanded? If there is a deviation from this workflow and/or the protocol(s) used, **update** the DMP.
+
 
 ## Output/data publication
 
 {:.alert .alert-info .mt-3}
-- Is the DMP in order? Have all necessary actions been carried out?   
-- Check by the scientist (e.g., sample check) - have the samples been correctly entered into the CMS?
+- Is the DMP in order? Have all necessary actions been carried out?
+- Have the samples been correctly entered into the CMS?
 - Is all relevant metadata in order?
 - Have the agreed naming convention & folder structure been followed?
 - Is it useful and/or necessary to also archive a copy of certain data?
 - Is the dataset mentioned in relevant outputs/publications?
 
+### Is the DMP in order? Have all necessary actions been carried out?
+
+Add an annex to the DMP with the data publication workflow.
+
+Are there aspects of the DMP that have changed and/or need to be expanded? **Update** the DMP!
+
+If the research outputs/data publication is deposited in the Research Information Management System (RIMS) of your institute (INBO's [PURE](https://pureportal.inbo.be/nl/)), do not forget to add alink to the DMP.
+
+### Have the samples been correctly entered into the CMS?
+
+This is more a kind of final double check. We suggest to perform a random check of a subset of the used samples.
+
+### Is all relevant metadata in order?
+
+Sometimes, multiple datasets are generated from the same workflow: check the metadata of all of them.
+
+### Have the agreed naming convention & folder structure been followed?
+
+Examples:
+- Check the folder structure
+- Are there still "loose" undocumented scripts or files?
+- Are there poorly named files?
+
+### Is it useful and/or necessary to also archive certain data?
+
+Think about archiving e.g., data supporting an output/publication.
+
+Per project/publication, consider which data needs to be archived. Consider archiving on the institute's cloud storage drive (INBO Archive Google drive) and/or an online data repository e.g., [zenodo](https://zenodo.org/). Follow your institute's Archive Policy if any.
+
+### Is the dataset mentioned in relevant outputs/publications?
+
+Follow your institute open data and open access policy if any. At INBO, it means keeping an eye on on the embargo period, which cannot be longer than 6 months. More details at the [INBO open data](https://www.vlaanderen.be/inbo/en-gb/open-data-policy/) and [open access](https://www.vlaanderen.be/inbo/en-gb/open-access-policy/) policies.
