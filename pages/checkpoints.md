@@ -23,6 +23,11 @@ toc: true
 - Which database/repository uploads are required by the reporting?
 - Is there an agreed metadata approach?
 
+### Has the DMP been started?
+
+**Added by me: not in original text**
+It's always a good idea to start a DMP at the conceptual stage of the eDNA research workflow.
+
 ### Is the team aware of the naming convention & folder structure?
 
 These aspects should be agreed upon at either a team, project, or laboratory level before the project begins and documented somewhere, for example, in a lab Standard Operating Procedures (SOP) or a project DMP.
