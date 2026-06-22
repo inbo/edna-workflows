@@ -4,8 +4,8 @@
 # Columns (the more you add, the narrower they will be)
 columns:
   - description: |
-      [![INBO logo](edna-workflows/assets/images/logo_inbo.png){:.img-fluid}](https://www.vlaanderen.be/inbo/en-gb/homepage/)
-  - description: > # E.g. funding acknowledgement. Can be Markdown
+      [![INBO logo](/edna-workflows/assets/images/logo_inbo.png){:.img-fluid}](https://www.vlaanderen.be/inbo/en-gb/homepage/)
+  - description:  # E.g. funding acknowledgement. Can be Markdown
       This website is being developed in the framework of the [GuardIAS](https://guardias.eu/) project. GuardIAS receives funding from the European Union’s Horizon Europe Research and Innovation Programme (ID No 101181413).
 
 # Small print license statement to add at the bottom of the footer. Can be Markdown
