@@ -6,3 +6,11 @@ background:
   img: /assets/images/vaart.jpg
 permalink: /team/
 ---
+
+Damiano Oldoni
+
+
+Maria-Rose Eves Down
+
+
+Charlotte Van Driessche
