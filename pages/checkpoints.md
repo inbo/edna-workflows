@@ -152,7 +152,7 @@ Are there aspects of the DMP that have changed and/or need to be expanded? If th
 {:.alert .alert-info .mt-3}
 - Have the analysis protocols/steps been written down?
 - Have the analysis protocols/steps been archived?
-- Have the reference database(s) been archived OR has their version/publication date been noted?
+- Have the used reference database(s) been archived OR has their version/publication date been noted?
 - Have the “operational data” been archived?
 - Is it useful to also archive other data?
 - Have the agreed naming convention & folder structure been followed?
