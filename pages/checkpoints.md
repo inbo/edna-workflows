@@ -89,14 +89,58 @@ Have you changed something about the sampling techniques or conventions? Then th
 ## Lab analyses
 
 {:.alert .alert-info .mt-3}
-- Have all relevant lab protocol(s) been written down?  
+- Have all relevant lab protocol(s) been written down?
 - Have copies of the lab protocol(s) been archived?
-- Have the samples all been named and stored as they should be? 
+- Have the samples all been named and stored as they should be?
 - Will the DNA specimens be deposited in a collection?
 - Has the sampling sheet been backed up?
 - Has the raw (DNA) data been archived?
-- Have the agreed naming convention & folder structure been followed? 
+- Have the agreed naming convention & folder structure been followed?
 - Is it necessary to update the DMP?
+
+### Have all relevant lab protocol(s) been written down?
+
+For example, the DNA extraction protocol. Use version control, e.g. git and GitHub.
+
+Some protocols could be manufacturer specific.
+
+### Have copies of the lab protocol(s) been archived?
+
+**For reviewers: this text is the same as the one in previous chapter (Sample collection). Delete this text after review.**
+
+Pay attention to document and apply version control and use already existing templates where possible. Deposit this documentation in online repositories, e.g. [zenodo](https://zenodo.org/), or institute specific tools (INBO archive, INBO protocol helper) or cloud storage drives (INBO Google drive). If it is described in the DMP, ensure that the DMP is deposited in the Research Information Management System (RIMS) of your institute (INBO's [PURE](https://pureportal.inbo.be/nl/)).
+
+### Have the samples all been named and stored as they should be?
+
+The sampling sheet must be checked at this stage.
+
+### Will the DNA specimens be deposited in a collection?
+
+This steps requires that the institute has a samples collection for DNA specimens, providing the right infrastructure to store DNA specimens for the long term. INBO has such an archive and can be used for any project where INBO has been involved, provided the samples meet the agreed minimum quality requirements:
+- The sample collections is well-documented
+- The sample was ethically and legally obtained
+- The sample is relevant to Flemish biodiversity.
+
+If the residual fraction of the eDNA sample needs to be archived after analysis, it is an added value to archive it as early as possible. The sample can be stored at -20°C or -80°C and is centrally managed by INBO from the moment the information is submitted.
+
+There may be an embargo on releasing the data, which allows analyses to be finished before the sample appears in the online (accessible) inventory.
+
+### Has the sampling sheet been backed up?
+
+**For reviewers: copy from previous chapter?**
+
+### Has the raw (DNA) data been archived?
+
+As soon as possible, after the completion of the analyses, archive the raw (DNA) data, e.g. in a cloud storage drives (INBO Google drive).
+
+### Have the agreed naming convention & folder structure been followed?
+
+**Not present in original document.**
+This step is important to automatise workflows and avoid mistakes in the data analyses.
+
+### Is it necessary to update the DMP?
+
+Are there aspects of the DMP that have changed and/or need to be expanded? If there is a deviation from this workflow and/or the protocol(s) used, **update** the DMP.
 
 ## Bioinformatics
 
