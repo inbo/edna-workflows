@@ -1,11 +1,15 @@
 # Project team members listed below will appear on the /team page
 
+- name: Charlotte Van Driessche
+  role: (e)DNA researcher
+  orcid: 0000-0003-1606-8758
+  github: cdvdries
+  email: charlotte.vandriessche@inbo.be
+
 - name: Maria-Rose Eves Down
   role: Data steward
   orcid: 0009-0000-9611-3824
   github: MEvesDown
-  bluesky: damianooldoni.bsky.social
-  mastodon: https://fosstodon.org/@damianooldoni
   email: mariarose.evesdown@inbo.be
 
 - name: Damiano Oldoni
