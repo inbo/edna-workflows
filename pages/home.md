@@ -17,4 +17,4 @@ This website covers workflows for data handling and storage for both approaches,
 
 We welcome feedback and contributions from the community.
 
-Cannot wait to start? Go to [Objective and Concept]({{ '/docs/objective/' \| relative_url }}).
+Cannot wait to start? Go to [Objective and Concept]({{ '/objective/' | relative_url }}).

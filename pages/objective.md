@@ -44,4 +44,4 @@ After each step in the eDNA data workflow, we propose a **data checkpoint**, wit
 The intention is for one or more team members to take responsibility for carrying out each checkpoint.
 The same person can carry out all checkpoints, but that is not required.
 
-Next read: [Checkpoints]({{ '/docs/checkpoints/' | relative_url }}).
+Next read: [Checkpoints]({{ '/checkpoints/' | relative_url }}).
