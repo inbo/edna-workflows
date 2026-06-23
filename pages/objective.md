@@ -30,6 +30,6 @@ The process from sampling to output/publication is divided into six steps:
 5. **Data processing**: The steps to go from "operational data" to an answer for a research question.
 6. **Output/data publication**: Make sure everything is correct and fully documented so that the results and output of the research are as valuable as possible.
 
-After each step in the eDNA data workflow, we propose a **data checkpoint**, with a list of questions/actions that must be carried out before the process moves to the next step. The intention is for one or more team members to take responsibility for carrying out each checkpoint. The same person can carry out all checkpoints, but that is not required.
+After each step in the eDNA data workflow, we propose a **data checkpoint**, with a list of questions/actions that must be carried out before the process moves to the next step. The intention is for one or more team members to take responsibility for carrying out each checkpoint. The same person can carry out all checkpoints, but this isn't obligatory.
 
 Next read: [Checkpoints]({{ '/docs/checkpoints/' | relative_url }}).
