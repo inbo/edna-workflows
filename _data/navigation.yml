@@ -16,6 +16,8 @@
 #   - text: "Dropdown header" # Title for block of menu items
 #   - text: Page with custom navigation
 #     href: /docs/custom-navigation/
+- text: Team
+  href: /team/
 - text: GitHub
   href: https://github.com/inbo/edna-workflows/
   new_window: true
