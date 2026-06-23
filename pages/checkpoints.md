@@ -14,7 +14,7 @@ editor_options:
 
 ## Overview
 
-![checkpoints]({{ '/assets/images/overview_checkpoints.png' \| relative_url }})
+![checkpoints]({{ '/assets/images/overview_checkpoints.png' | relative_url }})
 
 ## Preparation
 
