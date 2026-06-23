@@ -95,7 +95,7 @@ If there is a deviation from the described sampling techniques, e.g., for practi
 ### Have the sampling techniques been archived?
 
 Pay attention to document and apply version control and use already existing templates where possible.
-Deposit this documentation in online repositories, e.g. on an institute or project-specific web portal (INBO archive, INBO protocol helper), or wiki page, or in absence of such, on a readily available repository like [zenodo](https://zenodo.org/).
+Deposit this documentation in online repositories, e.g. on an institute or project-specific web portal (INBO archive, INBO protocol helper), or wiki page, or in absence of such, on a readily available repository like [Zenodo](https://zenodo.org/).
 If it is described in the DMP, ensure that the DMP is deposited in the RIMS of your institute (INBO's [PURE](https://pureportal.inbo.be/nl/)).
 
 ### Is it clearly noted in the sampling sheet where data and samples are stored or kept?
@@ -180,7 +180,7 @@ This serves as a practical working document and can later be used to update the 
 
 ### Have copies of the lab protocol(s) been archived?
 
-Follow the same archiving approach as described in the Sample Collection checkpoint: use version control, deposit on an institute or project-specific web portal or wiki page, or on [zenodo](#0) if no such portal is available.
+Follow the same archiving approach as described in the Sample Collection checkpoint: use version control, deposit on an institute or project-specific web portal or wiki page, or on [Zenodo](#0) if no such portal is available.
 Ensure the DMP is deposited in the RIMS of your institute (e.g. INBO's [PURE](#0)).
 
 Note that the project-specific lab update file on Google Drive (see above) can serve as a guide in which protocols to update and/or list in the DMP.
