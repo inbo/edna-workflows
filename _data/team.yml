@@ -1,0 +1,22 @@
+# Project team members listed below will appear on the /team page
+
+- name: Maria-Rose Eves Down
+  role: Data steward
+  orcid: 0009-0000-9611-3824
+  github: MEvesDown
+  bluesky: damianooldoni.bsky.social
+  mastodon: https://fosstodon.org/@damianooldoni
+  email: mariarose.evesdown@inbo.be
+
+- name: Damiano Oldoni
+  role: Research software engineer
+  image: https://avatars2.githubusercontent.com/u/33662631?s=400&v=4
+  description: >
+    Damiano (he/him) is a former physicist, trying to create order in the world of 
+    taxonomy and alike. He does so by writing elegant software functions to help 
+    you speed up your research. He is your contact point for the technical aspects of this website.
+  orcid: 0000-0003-3445-7562
+  github: damianooldoni
+  bluesky: damianooldoni.bsky.social
+  mastodon: https://fosstodon.org/@damianooldoni
+  email: damiano.oldoni@inbo.be
