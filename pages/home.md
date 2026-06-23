@@ -9,11 +9,17 @@ background:
 permalink: /
 ---
 
-Welcome to the eDNA workflows website! This website is dedicated to providing information and resources for researchers working with environmental DNA (eDNA) based analyses and consequent data workflows.
+Welcome to the eDNA workflows website! 
+This website is dedicated to providing information and resources for researchers working with environmental DNA (eDNA) based analyses and consequent data workflows, ranging from study design to data deposition and publication.
 
-Environmental DNA refers to genetic material emitted by organisms to their environment, from skin cells, mucus, faeces, or other biological traces. This can be collected and analysed from environmental samples such as water, soil, or air, without the need to directly capture the organisms themselves, therefore making eDNA-based analyses a powerful tool for biodiversity monitoring and conservation. eDNA analyses broadly fall into two groups: (1) barcoding, which targets a single species or taxon using specific assays (qPCR, ddPCR), and (2) metabarcoding, which simultaneously detects a wide range of taxa from a single sample using high-throughput sequencing. Many of the principles described in the workflow on this webpage are also applicable to a third category of analyses, i.e. DNA bulk metabarcoding, where genetic material is not extracted from the environment, but from a bulk physical sample of organisms.
+Environmental DNA refers to genetic material emitted by organisms to their environment, from skin cells, mucus, faeces, or other biological traces. 
+This can be collected and analysed from environmental samples such as water, soil, or air, without the need to directly capture the organisms themselves, therefore making eDNA-based analyses a powerful tool for biodiversity monitoring and conservation. 
+eDNA analyses broadly fall into two groups: (1) barcoding, which targets a single species or taxon using specific assays (qPCR, ddPCR), and (2) metabarcoding, which simultaneously detects a wide range of taxa from a single sample using high-throughput sequencing. 
+Many of the principles described in the workflow on this webpage are also applicable to a third category of analyses, i.e. DNA bulk metabarcoding, where genetic material is not extracted from the environment, but from a bulk physical sample of organisms.
+Although other, non-eDNA-research is not the focus of this workflow, many of the details can also be used in other DNA-research workflows. We hope to expand on this in the future, but of course first we need to finish the eDNA-focused workflow. Watch this space!
 
-This website covers workflows for data handling and storage for both approaches, from sampling collection to data publication. The development of a robust workflow, however, is a rather tedious process: a lot of choices have to be made, and the workflow is not always straightforward. This website aims to provide a comprehensive overview of the eDNA workflow we are developing at the [Research Institute for Nature and Forest](https://www.vlaanderen.be/inbo/en-gb/homepage/) (INBO), with the aim to share best practices and resources for researchers in the field. We hope that this website will serve as a valuable resource for researchers working with eDNA and concerned about open data and open science.
+Whilst we are (very) happy to share the eDNA workflow we are developing at the [Research Institute for Nature and Forest](https://www.vlaanderen.be/inbo/en-gb/homepage/) (INBO), it is definitely a work in progress and as such should not be treated as the finished article! 
+Nonetheless, we hope that this website will serve as a valuable resource to help researchers working with eDNA and metabarcoding to follow best practice and, where possible, Open Science principles. 
 
 We welcome feedback and contributions from the community.
 

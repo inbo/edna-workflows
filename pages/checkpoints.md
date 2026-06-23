@@ -20,25 +20,26 @@ editor_options:
 
 {:.alert .alert-info .mt-3}
 - Has the DMP been started?
-- Is the team aware of the naming convention & folder structure?
+- Is the team aware of the agreed upon naming convention & folder structure?
 - Are one or more team members responsible for each data checkpoint?
 - Is it known who the data owner is?
 Are there any existing obligations regarding openness and/or FAIRness of the data?
 - Which database/repository uploads are required by the reporting?
 - Is there an agreed metadata approach?
 
-### Has the DMP been started?
+### Has the Data Management Plan (DMP) been started?
 
-It's always a good idea to start a DMP at the conceptual stage of the eDNA research workflow.
+**Added by me: not in original text, expanded by MRED**
+It's always a good idea to start a DMP as soon as possible, preferably at the conceptual stage of the project and at least during the first stage of the the eDNA research workflow. At INBO, we provide specific support to researchers in writing, maintaining and implementing DMP's, from their initial (usually short on content, big on question marks) to their final versions (everything is decided and clearly communicatied) and beyond. Elixir provide [excellent resources](https://rdm.elixir-belgium.org/data_management_steps) to help you write your own DMP's, and many (EU) funders also provide resources and templates (e.g. [Biodiversa+](https://www.biodiversa.eu/2023/10/06/data-management-guide/))
 
 ### Is the team aware of the naming convention & folder structure?
 
-These aspects should be agreed upon at either a team, project, or laboratory level before the project begins and documented somewhere, for example, in a lab Standard Operating Procedures (SOP) or a project DMP.
-It must be compatible with the Collection Management System (CMS) where samples/data are located & how they are named/labelled.
+These aspects should be agreed upon at either a team, project, or laboratory level before the project begins and documented somewhere, for example, in a lab Standard Operating Procedures (SOP) or a project DMP. The document should be kept securely, for example in an institutional repository or in the Team's shared data storage location, with clear versioning.
+It must be compatible with whatever Collection Management System (CMS) your institution uses (this is where samples/data are located & how they are named/labelled).
 
 ### Are one or more team members responsible for each data checkpoint?
 
-This can be noted in the DMP or another file, e.g. a spreadsheet.
+This can be noted in the DMP or another file, e.g. a project spreadsheet.
 
 ### Is it known who the data owner is? Are there any existing obligations regarding openness and/or FAIRness of the data?
 
@@ -49,14 +50,17 @@ The situation must also be explained in the DMP.
 
 ### Which database/repository uploads are required by the reporting?
 
-Different data types generated throughout the workflow are typically deposited in different repositories.
-It is already insightful at this stage to keep these in mind, as many repositories have specific metadata requirements.
+This is an open question - Can a general approach be decided upon (e.g., one database per type of data, etc.)?
+Different data types generated throughout the workflow are typically deposited in different repositories, which can have different metadata requirements.
+If there is a required metadata standard for a required database, consider whether it is logical to use this metadata standard from the very beginning and note this in the DMP. 
+For example, if you wish to publish data on [GBIF](https://www.gbif.org), you will usually need to use the [darwincore metadata standard](https://www.gbif.org/darwin-core).
 Starting with the correct metadata format from the beginning will save considerable effort later.
+
 Common repositories used in accordance with eDNA data are:
 
 - Raw sequence data –\> internal back-up drive and publicly through ENA or SRA
 
-- Occurrence data –\> GBIF (via IPT or Darwin Core Archive)
+- Occurrence data –\> [GBIF](https://www.gbif.org) (via IPT or Darwin Core Archive)
 
 - Reference databases, scripts, downstream processed data (from OTU/ASV tables to extended and statistically analysed datasets to answer particular research questions) –\> zenodo
 
@@ -64,7 +68,7 @@ Common repositories used in accordance with eDNA data are:
 
 - DNA specimens, or other physical samples –\> Institute collection [insert section on CMS here?]
 
-- DMP —\> institute RIMS (Research Information Management System)
+- DMP —\> your institute RIMS (Research Information Management System)
 
   More details are presented in the Output/Publication section.
 
@@ -74,14 +78,14 @@ Common repositories used in accordance with eDNA data are:
 - Have the sampling techniques been written down?
 - Have the sampling techniques been archived?
 - Is it clearly noted in the sampling sheet where data and samples are stored or kept?
-- Have the agreed naming convention & folder structure been followed?
+- Have the agreed upon naming convention & folder structure been followed?
 - Has the sampling sheet been backed up?
 - Is it necessary to update the DMP?
 
 ### Have the sampling techniques been written down?
 
-The description of the sampling techniques does not need to be highly detailed.
-Reference to documentation (e.g., SIP, SAP, SOP, SVP) or mentioning, for example, filter method, volumes, etc., in the field forms of the sampling sheet is often sufficient.
+The description of the sampling techniques does not need to be highly detailed. 
+Reference to documentation (e.g., SIP, SAP, SOP, SFP, SPP) (_Standard Instrument Protocols; Standard Analytical Protocols; Standard Operating Procedures; Standard Field Protocols; Project-Specific Protocols_) or mentioning, for example, filter method, volumes, etc., in the field forms of the sampling sheet is often sufficient. 
 Alternatively, include the description in the DMP.
 If there is a deviation from the described sampling techniques, e.g., for practical reasons, note this in the DMP as well.
 
@@ -93,7 +97,8 @@ If it is described in the DMP, ensure that the DMP is deposited in the RIMS of y
 
 ### Is it clearly noted in the sampling sheet where data and samples are stored or kept?
 
-Bringing samples to the lab follows an agreed intake procedure.
+Does your institution have a managed DNA-sample collection? If so, great! Hopefully the locations and lanner of storage of each sample is always clearly noted. If not, do your best to keep these records accurate and up to date. (NB: If you wish to begin managing your institutions DNA collection in a more standard fashion, please see resources such as [Veltjen et al., 2024](https://doi.org/10.3897/rio.10.e135978) for more information).
+Bringing samples to the lab (should) follows an agreed intake procedure.
 At INBO, samples are brought to the genetics laboratory in consultation with the lab team.
 Upon intake, a registration form (Google Forms) must be completed, specifying the storage conditions required: room temperature, cold room, or freezer.
 Each sample receives a checklist number, which is physically labelled on the sample and registered in the central overview (Google Forms Response Sheet, i.e. sampling sheet), linking all relevant metadata to the sample for both physical and digital traceability via the CMS.
@@ -102,7 +107,7 @@ After processing, a storage decision must be made: samples kept for less than 5 
 
 If a storage decision has not yet been made upon sample collection, ensure this is followed up and updated both in the sampling sheet (recording sample metadata) and the CMS before moving towards the next step.
 
-### Have the agreed naming convention & folder structure been followed?
+### Have the agreed upon naming convention & folder structure been followed?
 
 The sample ID must follow a convention, ideally established before the project begins and as streamlined over multiple projects as possible.
 The naming convention can further be noted in the project SOP or DMP.
@@ -129,6 +134,8 @@ For downstream processing, whether this entails registration and follow-up throu
 These choices may reflect the specific research question or analysis at hand, but should always build on the base sample ID convention described above, or decided upon at the beginning of the project.
 This ensures traceability back to the original sample across all datasets and publications.
 
+Elixir also provide extra information on [choosing a naming convention](https://rdm.elixir-belgium.org/file_naming).
+
 ### Has the sampling sheet been backed up?
 
 As the sampling sheet is the key to understanding and using the data, ensure a backup copy is maintained regularly, for example on a cloud storage drive or secondary local drive.
@@ -144,12 +151,12 @@ See it as a living document, that grows while the project evolves.
 
 {:.alert .alert-info .mt-3}
 - Have all relevant lab protocol(s) been written down?
-- Have copies of the lab protocol(s) been archived?
+        - Have the lab protocol(s) been archived?
 - Have the samples all been named and stored as they should be?
 - Will the eDNA samples or DNA specimens be deposited in a collection?
 - Has the sampling sheet been backed up?
 - Has the raw (DNA) data been archived?
-- Have the agreed naming convention & folder structure been followed?
+- Have the agreed upon naming convention & folder structure been followed?
 - Is it necessary to update the DMP?
 
 ### Have all relevant lab protocol(s) been written down?
