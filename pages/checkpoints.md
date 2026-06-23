@@ -19,7 +19,6 @@ editor_options:
 ## Preparation
 
 {:.alert .alert-info .mt-3}
-
 - Has the DMP been started?
 - Is the team aware of the naming convention & folder structure?
 - Are one or more team members responsible for each data checkpoint?
@@ -72,7 +71,6 @@ Common repositories used in accordance with eDNA data are:
 ## Sample collection
 
 {:.alert .alert-info .mt-3}
-
 - Have the sampling techniques been written down?
 - Have the sampling techniques been archived?
 - Is it clearly noted in the sampling sheet where data and samples are stored or kept?
