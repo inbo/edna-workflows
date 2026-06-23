@@ -17,35 +17,36 @@ toc: true
 
 {:.alert .alert-info .mt-3}
 - Has the DMP been started?
-- Is the team aware of the naming convention & folder structure?
+- Is the team aware of the agreed upon naming convention & folder structure?
 - Are one or more team members responsible for each data checkpoint?
 - Is it known who the data owner is? Are there any existing obligations regarding openness and/or FAIRness of the data?
 - Which database/repository uploads are required by the reporting?
 - Is there an agreed metadata approach?
 
-### Has the DMP been started?
+### Has the Data Management Plan (DMP) been started?
 
-**Added by me: not in original text**
-It's always a good idea to start a DMP at the conceptual stage of the eDNA research workflow.
+**Added by me: not in original text, expanded by MRED**
+It's always a good idea to start a DMP as soon as possible, preferably at the conceptual stage of the project and at least during the first stage of the the eDNA research workflow. At INBO, we provide specific support to researchers in writing, maintaining and implementing DMP's, from their initial (usually short on content, big on question marks) to their final versions (everything is decided and clearly communicatied) and beyond. Elixir provide [excellent resources](https://rdm.elixir-belgium.org/data_management_steps) to help you write your own DMP's, and many (EU) funders also provide resources and templates (e.g. [Biodiversa+](https://www.biodiversa.eu/2023/10/06/data-management-guide/))
 
 ### Is the team aware of the naming convention & folder structure?
 
-These aspects should be agreed upon at either a team, project, or laboratory level before the project begins and documented somewhere, for example, in a lab Standard Operating Procedures (SOP) or a project DMP.
-It must be compatible with the Collection Management System (CMS) where samples/data are located & how they are named/labelled.
+These aspects should be agreed upon at either a team, project, or laboratory level before the project begins and documented somewhere, for example, in a lab Standard Operating Procedures (SOP) or a project DMP. The document should be kept securely, for example in an institutional repository or in the Team's shared data storage location, with clear versioning.
+It must be compatible with whatever Collection Management System (CMS) your institution uses (this is where samples/data are located & how they are named/labelled).
 
 ### Are one or more team members responsible for each data checkpoint?
 
-This can be noted in the DMP or another file, e.g. a spreadsheet.
+This can be noted in the DMP or another file, e.g. a project spreadsheet.
 
 ### Is it known who the data owner is? Are there any existing obligations regarding openness and/or FAIRness of the data?
 
-There may be multiple data owners. It may be that, according to agreements with partners, funders, etc., the data can never be shared _openly_ or _FAIRly_, or conversely, it must be shared _openly_ and _FAIRly_. If this is already agreed upon before the research begins, the data can be managed from the start with this in mind.
+There may be multiple data owners. 
+It may be that, according to agreements with partners, funders, etc., the data can never be shared _openly_ or _FAIRly_, or conversely, it *must* be shared _openly_ and _FAIRly_. If this is already agreed upon before the research begins, the data can be managed from the start with this in mind.
 The situation must also be explained in the DMP.
 
 ### Which database/repository uploads are required by the reporting?
 
-Open question - Can a general approach be decided upon (e.g., one database per type of data, etc.)?
-If there is a required metadata standard for a required database, consider whether it is logical to use this metadata standard from the very beginning and note it in the DMP.
+This is an open question - Can a general approach be decided upon (e.g., one database per type of data, etc.)?
+If there is a required metadata standard for a required database, consider whether it is logical to use this metadata standard from the very beginning and note it in the DMP. For example, if you wish to publish data on [GBIF](https://www.gbif.org), you will usually need to use the [darwincore metadata standard](https://www.gbif.org/darwin-core).
 
 
 ## Sample collection
@@ -54,27 +55,29 @@ If there is a required metadata standard for a required database, consider wheth
 - Have the sampling techniques been written down?
 - Have the sampling techniques been archived?
 - Is it clearly noted in the sampling sheet where data and samples are stored or kept?
-- Have the agreed naming convention & folder structure been followed?
+- Have the agreed upon naming convention & folder structure been followed?
 - Has the sampling sheet been backed up?
 - Is it necessary to update the DMP?
 
 ### Have the sampling techniques been written down?
 
-The description of the sampling techniques does not need to be highly detailed. Reference to documentation (e.g., SIP, SAP, SOP, SVP) or mentioning, for example, filter method, volumes, etc., in the field forms of the sampling sheet is often sufficient. Alternatively, include the description in the DMP.
+The description of the sampling techniques does not need to be highly detailed. Reference to documentation (e.g., SIP, SAP, SOP, SFP, SPP) (_Standard Instrument Protocols; Standard Analytical Protocols; Standard Operating Procedures; Standard Field Protocols; Project-Specific Protocols_) or mentioning, for example, filter method, volumes, etc., in the field forms of the sampling sheet is often sufficient. 
+Alternatively, include the description in the DMP.
 If there is a deviation from the described sampling techniques, e.g., for practical reasons, note this in the DMP as well.
 
 ### Have the sampling techniques been archived?
 
-Pay attention to document and apply version control and use already existing templates where possible. Deposit this documentation in online repositories, e.g. [zenodo](https://zenodo.org/), or institute specific tools (INBO archive, INBO protocol helper) or cloud storage drives (INBO Google drive). If it is described in the DMP, ensure that the DMP is deposited in the Research Information Management System (RIMS) of your institute (INBO's [PURE](https://pureportal.inbo.be/nl/)).
+Pay attention to documentation and apply version control, using already existing templates where possible. Deposit this documentation in online repositories, e.g. [zenodo](https://zenodo.org/), or institute specific tools (INBO archive, [INBO protocol helper](https://protocols.inbo.be)) or cloud storage drives (INBO Google drive). 
+If it is described in the DMP, ensure that the DMP is deposited in the Research Information Management System (RIMS) of your institute (INBO's [PURE](https://pureportal.inbo.be/nl/)).
 
 ### Is it clearly noted in the sampling sheet where data and samples are stored or kept?
 
-So far, there is no official physical INBO archive for water samples, filters, or soil samples in cold storage. This means that the agreement is that matrix samples are only kept for the short term (<5 years). Usually, the samples are deposited at a place agreed upon with the laboratory technician, pending processing in the lab.
-Most details about this can be included in the sampling sheet. This sampling sheet is must be compatible with the CMS and ensures that the eDNA samples can be imported into the database if a decision is made to archive them.
+Does your institution have a managed DNA-sample collection? If so, great! Hopefully the locations and lanner of storage of each sample is always clearly noted. If not, do your best to keep these records accurate and up to date. (NB: If you wish to begin managing your institutions DNA collection in a more standard fashion, please see resources such as [Veltjen et al., 2024](https://doi.org/10.3897/rio.10.e135978) for more information).
+Most details about this can be included in the sampling sheet. The sampling sheet is must be compatible with the CMS and ensures that the eDNA samples can be imported into the database if a decision is made to archive them.
 
-### Have the agreed naming convention & folder structure been followed?
+### Have the agreed upon naming convention & folder structure been followed?
 
-The sample ID must follow a convention. At INBO we use the following: `year_project_sitecode_samplenumber`, e.g. `2024_dissco17748_kattenbeek03_005`.
+The sample ID must follow a convention. At INBO, we use the following: `year_project_sitecode_samplenumber`, e.g. `2024_dissco17748_kattenbeek03_005`.
 
 Conventions:
 - The sample ID must be lowercase
@@ -82,6 +85,8 @@ Conventions:
 - The `samplenumber` must always consist of three digits as we never expect 1000 or more samples per location
 - `sitecode` can be an acronym, a number, or a combination of both  and can be agreed per project.
 - The `project` can be the project acronym, or the project acronym + the ID provided by the used Project Management System (PMS). This should be agreed upon generally.
+
+Elixir also provide extra information on [choosing a naming convention](https://rdm.elixir-belgium.org/file_naming).
 
 ### Has the sampling sheet been backed up?
 
@@ -95,19 +100,19 @@ Have you changed something about the sampling techniques or conventions? Then th
 
 {:.alert .alert-info .mt-3}
 - Have all relevant lab protocol(s) been written down?
-- Have copies of the lab protocol(s) been archived?
+        - Have the lab protocol(s) been archived?
 - Have the samples all been named and stored as they should be?
 - Will the DNA specimens be deposited in a collection?
 - Has the sampling sheet been backed up?
 - Has the raw (DNA) data been archived?
-- Have the agreed naming convention & folder structure been followed?
+- Have the agreed upon naming convention & folder structure been followed?
 - Is it necessary to update the DMP?
 
 ### Have all relevant lab protocol(s) been written down?
 
-For example, the DNA extraction protocol. Use version control, e.g. git and GitHub.
+For example, the DNA extraction protocol. Use version control, e.g. git and GitHub (linked to [zenodo](https://zenodo.org/) when the protocol is able to be Open).
 
-Some protocols could be manufacturer specific.
+Some protocols are manufacturer specific.
 
 ### Have copies of the lab protocol(s) been archived?
 
@@ -121,14 +126,14 @@ The sampling sheet must be checked at this stage.
 
 ### Will the DNA specimens be deposited in a collection?
 
-This steps requires that the institute has a samples collection for DNA specimens, providing the right infrastructure to store DNA specimens for the long term. INBO has such an archive and can be used for any project where INBO has been involved, provided the samples meet the agreed minimum quality requirements:
+This step requires that the institute has a sample collection for DNA specimens, providing the right infrastructure to store DNA specimens for the long term. INBO has such an archive, which can be used for any project where INBO has been involved, provided the samples meet the agreed minimum quality requirements:
 - The sample collections is well-documented
 - The sample was ethically and legally obtained
 - The sample is relevant to Flemish biodiversity.
 
 If the residual fraction of the eDNA sample needs to be archived after analysis, it is an added value to archive it as early as possible. The sample can be stored at -20°C or -80°C and is centrally managed by INBO from the moment the information is submitted.
 
-There may be an embargo on releasing the data, which allows analyses to be finished before the sample appears in the online (accessible) inventory.
+There may be an embargo on releasing the data, which allows analyses to be finished before the sample appears in the online (findeable) inventory.
 
 ### Has the sampling sheet been backed up?
 
