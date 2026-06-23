@@ -20,12 +20,12 @@ editor_options:
 
 {:.alert .alert-info .mt-3}
 
-\- Has the DMP been started?\
-- Is the team aware of the naming convention & folder structure?\
-- Are one or more team members responsible for each data checkpoint?\
+- Has the DMP been started?
+- Is the team aware of the naming convention & folder structure?
+- Are one or more team members responsible for each data checkpoint?
 - Is it known who the data owner is?
-Are there any existing obligations regarding openness and/or FAIRness of the data?\
-- Which database/repository uploads are required by the reporting?\
+Are there any existing obligations regarding openness and/or FAIRness of the data?
+- Which database/repository uploads are required by the reporting?
 - Is there an agreed metadata approach?
 
 ### Has the DMP been started?
@@ -59,7 +59,7 @@ Common repositories used in accordance with eDNA data are:
 
 - Occurrence data –\> GBIF (via IPT or Darwin Core Archive)
 
-- Reference databases, scripts, downstream processed data (from OTU/ASV tables to extended and statistically analysed datasets to answer particular research questions) –\> Zenodo
+- Reference databases, scripts, downstream processed data (from OTU/ASV tables to extended and statistically analysed datasets to answer particular research questions) –\> zenodo
 
 - Protocols –\> publicly available institute or project website or wiki page
 
@@ -73,16 +73,11 @@ Common repositories used in accordance with eDNA data are:
 
 {:.alert .alert-info .mt-3}
 
-\- Have the sampling techniques been written down?
-\
+- Have the sampling techniques been written down?
 - Have the sampling techniques been archived?
-\
 - Is it clearly noted in the sampling sheet where data and samples are stored or kept?
-\
 - Have the agreed naming convention & folder structure been followed?
-\
 - Has the sampling sheet been backed up?
-\
 - Is it necessary to update the DMP?
 
 ### Have the sampling techniques been written down?
@@ -114,8 +109,7 @@ If a storage decision has not yet been made upon sample collection, ensure this 
 The sample ID must follow a convention, ideally established before the project begins and as streamlined over multiple projects as possible.
 The naming convention can further be noted in the project SOP or DMP.
 What matters, is that these sampling IDs are consistent and compatible with the CMS.
-\
-\
+
 For eDNA samples at INBO, the following convention is used:
 
 `E[year][filtertype][4-digit tracking number][handling steps with umpact on physical sample]`, e.g.
@@ -123,10 +117,10 @@ For eDNA samples at INBO, the following convention is used:
 
 Conventions:
 
-\- `E` indicates an eDNA sample\
-- `year` is the full 4-digit year\
-- `filtertype` indicates the filter type used during sampling\
-- `4-digit tracking number` is a unique sequential identifier, from 0 to 9999 within a sampling year\
+- `E` indicates an eDNA sample
+- `year` is the full 4-digit year
+- `filtertype` indicates the filter type used during sampling
+- `4-digit tracking number` is a unique sequential identifier, from 0 to 9999 within a sampling year
 - `handling steps` are optional suffixes indicating post-collection processing steps that affect the physical sample (e.g. `PC` for PowerClean).
 
 Upon registration in the CMS, the sample ID may be extended with additional component to reflect further processing steps or linkage to project metadata.
@@ -150,21 +144,14 @@ See it as a living document, that grows while the project evolves.
 
 ## Lab analyses
 
-{:.alert .alert-info .mt-3} \
+{:.alert .alert-info .mt-3}
 - Have all relevant lab protocol(s) been written down?
-\
 - Have copies of the lab protocol(s) been archived?
-\
 - Have the samples all been named and stored as they should be?
-\
 - Will the eDNA samples or DNA specimens be deposited in a collection?
-\
 - Has the sampling sheet been backed up?
-\
 - Has the raw (DNA) data been archived?
-\
 - Have the agreed naming convention & folder structure been followed?
-\
 - Is it necessary to update the DMP?
 
 ### Have all relevant lab protocol(s) been written down?
@@ -198,9 +185,9 @@ Ensure the sample location after processing is updated in both the sampling shee
 
 For a sample or specimen to be eligible for long-term storage in the INBO collection, a number of minimum quality requirements need to be met:
 
-\- The sample collection is well-documented \
-- The sample was ethically and legally obtained \
-- The sample is relevant to Flemish biodiversity.
+- The sample collection is well-documented
+- The sample was ethically and legally obtained
+- The sample is relevant to Flemish biodiversity
 
 **[placeholder, shortly introduce and link to publication "The “Key” to Bringing DNA Collections to the Next Level: A DiSSCo Flanders Working Group Product"]**
 
@@ -235,25 +222,19 @@ The bioinformatics step is primarily relevant for **metabarcoding** analyses, wh
 For **barcoding** analyses (e.g. qPCR or ddPCR), this step is largely absent or greatly reduced, as in that case raw data is typically processed directly by the instrument software or a minimal analysis pipeline, and results are ready for data processing at an earlier stage.
 If you are working with barcoding data, you may therefore proceed more quickly to the Dataprocessing checkpoint.
 
-{:.alert .alert-info .mt-3} \
+{:.alert .alert-info .mt-3}
 - Have the analysis protocols/steps been written down?
-\
 - Have the analysis protocols/steps been archived?
-\
 - Have the used reference database(s) been archived OR has their version/publication date been noted?
-\
 - Have the “operational data” been archived?
-\
 - Is it useful to also archive other data?
-\
 - Have the agreed naming convention & folder structure been followed?
-\
 - Is it necessary to update the DMP?
 
 ### Have the analysis protocols/steps been written down?
 
-Examples: \
-- A standard set of steps to demultiplex sequencing data\
+Examples:
+- A standard set of steps to demultiplex sequencing data
 - A step-by-step protocol of the bioinformatics analysis pipeline
 
 At INBO, the development of bioinformatics protocols typically follows a two-stage documentation process.
@@ -287,10 +268,10 @@ Refer to the Preparation checkpoint for an overview of recommended repositories.
 
 Per project, consider whether there are meaningful 'savepoints' during the bioinformatics workflow, for example:
 
-\- Demultiplexed data\
-- Outputs of computationally intensive steps, worth archiving as a backup\
-- Data supplied to clients or partners\
-- Data used for other internal projects that must be published later.
+- Demultiplexed data
+- Outputs of computationally intensive steps, worth archiving as a backup
+- Data supplied to clients or partners
+- Data used for other internal projects that must be published later
 
 Ensure there is a clear `README` with all savepoints, including the script/steps taken to reach that point.
 
@@ -314,23 +295,19 @@ See it as a living document that grows as the project evolves.
 Data processing applies to both **barcoding** and **metabarcoding** analyses, albeit starting from different inputs: for barcoding (e.g. qPCR or ddPCR), processing typically starts from concentration values or presence/absence results generated directly from the instrument; for metabarcoding, it starts from OTU/ASV tables generated in the bioinformatics step.
 From this point, the workflow and data management considerations are largely the same for both approaches.
 
-{:.alert .alert-info .mt-3} \
-- Has the data analysis been written down?\
+{:.alert .alert-info .mt-3}
+- Has the data analysis been written down?
 - Have the analysis protocols/steps been archived?
-\
 - Have the “operational data” been archived?
-\
 - Is it useful to also archive certain data?
-\
 - Have the agreed naming convention & folder structure been followed?
-\
 - Is it necessary to update the DMP?
 
 ### Has the data analysis been written down
 
-Examples: \
-- A standard set of steps to perform a specific statistical analysis \
-- Relevant scripts and phyloseq objects (metabarcoding)\
+Examples:
+- A standard set of steps to perform a specific statistical analysis
+- Relevant scripts and phyloseq objects (metabarcoding)
 - Concentration calculations or standard curve analyses (barcoding)
 
 Document the necessary information to make the data processing reproducible.
@@ -353,8 +330,8 @@ Refer to the Preparation checkpoint for an overview of recommended repositories.
 
 Per project, consider whether there are meaningful 'savepoints' during data processing, for example:
 
-\- Intermediate datasets supplied to clients or partners \
-- Data used for other internal projects that must be published later\
+- Intermediate datasets supplied to clients or partners
+- Data used for other internal projects that must be published later
 - Outputs of computationally intensive steps, worth archiving as a backup
 
 Ensure there is a clear `README` documenting all savepoints, including the scripts or steps taken to reach each one.
@@ -376,18 +353,13 @@ This is the final checkpoint, where all data and outputs are published, archived
 It is also the moment to ensure the full workflow is properly documented and that all previous checkpoints have been completed.
 Refer to the Prearation checkpoint for an overview of recommended repositories and their metadata requirements; if these were kept in mind from the start, this step should be straightforward.
 
-{:.alert .alert-info .mt-3} \
+{:.alert .alert-info .mt-3}
 - Is the DMP in order?
 Have all necessary actions been carried out?
-\
 - Have the samples been correctly entered into the CMS?
-\
 - Is all relevant metadata in order?
-\
 - Have the agreed naming convention & folder structure been followed?
-\
 - Is it useful and/or necessary to also archive a copy of certain data?
-\
 - Is the dataset mentioned in relevant outputs/publications?
 
 ### Is the DMP in order? Have all necessary actions been carried out?
@@ -411,11 +383,10 @@ If metadata standards were followed from the start as recommended in the Prepara
 
 ### Have the agreed naming convention & folder structure been followed?
 
-Examples: \
-- Check the folder structure \
+Examples:
+- Check the folder structure
 - Are there still "loose" undocumented scripts or files?
-\
-- Are there poorly named files?\
+- Are there poorly named files?
 - Are all files accounted for in a `README` or equivalent documentation?
 
 ### Is it useful and/or necessary to also archive certain data?
