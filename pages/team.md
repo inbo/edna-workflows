@@ -1,32 +1,9 @@
 # Project team members listed below will appear on the /team page
 
-- name: Charlotte Van Driessche
-  role: (e)DNA researcher
-  image:
-  description: >
-    Charlotte (she/her) is an environmental DNA researcher focused on developing eDNA tools and workflows for biodiversity monitoring,
-    from initial concept through to implementation-ready solutions. She is your contact point for the scientific and methodological aspects of this website.
-  orcid: 0000-0003-1606-8758
-  github: cdvdries
-  bluesky: vdriecha.bsky.social
-  researchgate: https://www.researchgate.net/profile/Charlotte_Van_Driessche?ev=hdr_xprf
-  email: charlotte.vandriessche@inbo.be
+---
+layout: team
+title: Team
+description: Who we are
+permalink: /team/
+---
 
-- name: Maria-Rose Eves Down
-  role: Data steward
-  orcid: 0009-0000-9611-3824
-  github: MEvesDown
-  email: mariarose.evesdown@inbo.be
-
-- name: Damiano Oldoni
-  role: Research software engineer
-  image: https://avatars2.githubusercontent.com/u/33662631?s=400&v=4
-  description: >
-    Damiano (he/him) is a former physicist, trying to create order in the world of 
-    taxonomy and alike. He does so by writing elegant software functions to help 
-    you speed up your research. He is your contact point for the technical aspects of this website.
-  orcid: 0000-0003-3445-7562
-  github: damianooldoni
-  bluesky: damianooldoni.bsky.social
-  mastodon: https://fosstodon.org/@damianooldoni
-  email: damiano.oldoni@inbo.be
