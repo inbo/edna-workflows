@@ -5,6 +5,7 @@ baseurl: "/edna-workflows" # Remove once custom domain is enabled (use url prope
 
 # SOCIAL PROFILES
 social:
+  email: gendiv@inbo.be?subject=Question%20about%20eDNA%20workflows
   bluesky: inbo.be
   github: inbo/edna-workflows
 
