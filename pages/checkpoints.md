@@ -7,9 +7,6 @@ background:
   href: https://unsplash.com/photos/five-green-plants-UmncJq4KPcA
 permalink: /checkpoints/
 toc: true
-editor_options: 
-  markdown: 
-    wrap: sentence
 ---
 
 ## Overview
