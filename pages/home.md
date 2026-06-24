@@ -24,3 +24,6 @@ Nonetheless, we hope that this website will serve as a valuable resource to help
 We welcome feedback and contributions from the community.
 
 Cannot wait to start? Go to [Objective and Concept]({{ '/objective/' | relative_url }}).
+
+{:.text-center}
+[<i class="fa-solid fa-envelope"></i> Contact us](mailto:gendiv@inbo.be?subject={{ "Question about eDNA workflows" | uri_escape }}){:.btn .btn-primary}
