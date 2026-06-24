@@ -53,13 +53,13 @@ Where data cannot be made open, something to keep in mind is whether you can sti
 This is an open question - Can a general approach be decided upon (e.g., one database per type of data, etc.)?
 Different data types generated throughout the workflow are typically deposited in different repositories, which can have different metadata requirements.
 If there is a required metadata standard for a required database, consider whether it is logical to use this metadata standard from the very beginning and note this in the DMP. 
-For example, if you wish to publish data on [GBIF](https://www.gbif.org), you will usually need to use the [Darwincore metadata standard](https://www.gbif.org/darwin-core). Starting with the correct metadata format from the beginning will save considerable effort later.
+For example, if you wish to publish data on [GBIF](https://www.gbif.org), you will usually need to use the [Darwin Core metadata standard](https://www.gbif.org/darwin-core). Starting with the correct metadata format from the beginning will save considerable effort later.
 
 Common repositories used in accordance with eDNA data are:
 
 - Raw sequence data –\> internal back-up drive and publicly through [ENA](https://www.ebi.ac.uk/ena/browser/home) or [SRA](https://www.ncbi.nlm.nih.gov/sra) (also see [ENA-submission guide by Elixir](https://rdm.elixir-belgium.org/ena-submission))
 
-- Occurrence data –\> [GBIF](https://www.gbif.org) (via IPT or [Darwin Core Archive](https://www.gbif.org/darwin-core))
+- Occurrence data –\> [GBIF](https://www.gbif.org), by uploading a [Darwin Core Archive](https://www.gbif.org/darwin-core) to an [Integrated Publishing Toolkit](https://www.gbif.org/ipt) (IPT) instance
 
 - Reference databases, scripts, downstream processed data (from OTU/ASV tables to extended and statistically analysed datasets to answer particular research questions) –\> [Zenodo](https://zenodo.org)
 
@@ -256,7 +256,7 @@ At the project level, ensure that the DMP lists which pipeline versions or steps
 
 Reference databases are a critical component of metabarcoding analyses, as results are directly dependent on the database used.
 Deposit the reference database(s) on [Zenodo](https://zenodo.org/) and, where possible, also archive them internally.
-Note the version or publication date used and provide a link to the Zenodo deposit/doi.
+Note the version or publication date used and provide a link to the [Zenodo](https://zenodo.org) record by its [Digital Object Identifier](https://www.doi.org/) (DOI).
 If an internal multihit list was used, also note its version or date.
 
 ### Has the “operational data” been archived?
