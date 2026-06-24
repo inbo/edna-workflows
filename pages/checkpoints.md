@@ -239,7 +239,7 @@ Examples:
 At INBO, the development of bioinformatics protocols typically follows a two-stage documentation process.
 Working notes, how-to pages, and tutorials are first developed and maintained on internal platforms — previously Confluence, now BookStack **[placeholder: add link to relevant BookStack pages]** — allowing team members to collaboratively figure out and refine analytical steps.
 Once a pipeline or protocol step is sufficiently mature, a versioned, publication-ready version is documented on GitHub for version control and public accessibility.
-See the code base in repository [`inbo/edna-metabarcoding`](https://github.com/inbo/edna-metabarcoding).
+The INBO code base repository is currently under review and will be made available soon.
 
 At the project level, it is good practice to list in the sampling sheet and/or DMP which specific steps, processes, or pipelines were followed.
 This ensures that the bioinformatics choices made are traceable and reproducible at the project level, even when the underlying protocols are still under active development on BookStack.
