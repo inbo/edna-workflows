@@ -20,7 +20,7 @@ colors:
   footer: "#356196" # Secundary INBO color (used for buttons or other banners)
 font_serif: true  # Font type for page content: serif (default) or slightly smaller sans-serif
 rounded_corners: true # Enable (default) rounded corners on boxes and buttons
-logo: /assets/images/guardias_logo.png
+logo: /assets/images/logo_inbo_pink.jpg
 logo_and_title: true  # If logo is enabled, show title as well (default)
 
 # BUILD SETTINGS
