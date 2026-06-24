@@ -53,4 +53,4 @@ The principles and practices described in this workflow are general in nature, c
 These include, among others, [eDNAqua-Plan](https://ednaquaplan.com/), [COST eDNA4Policy](https://www.cost.eu/actions/CA22113/), and the ECOSTAT (e)DNA Working Group advising under the Water Framework Directive.
 We welcome feedback and contributions from the community — if you notice gaps or opportunities for alignment with other initiatives, please do not hesitate to get in touch.
 
-Next read: [Checkpoints]({{ '/docs/checkpoints/' | relative_url }}).
+Next read: [Checkpoints]({{ '/checkpoints/' | relative_url }}).
