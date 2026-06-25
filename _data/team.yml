@@ -14,11 +14,11 @@
 
 - name: Maria-Rose Eves Down
   role: Data steward
+  image: /assets/images/MED_foto.jpg
   description: >
     An ecologist with a background in agricultural ecology, invasive species & environmental pollution 
     whose passion for Open Science also led her to datastewarding! In this project, she is working on the eDNA workflows 
     and is your contact point for the Open Science and research data management aspects of this website.
-  image: /assets/images/MED_foto.jpg
   orcid: 0009-0000-9611-3824
   github: MEvesDown
   email: mariarose.evesdown@inbo.be
