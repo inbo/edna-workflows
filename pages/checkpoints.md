@@ -397,5 +397,5 @@ Follow your institute's Archive Policy where applicable.
 
 Ensure that datasets are cited and linked in any associated outputs or publications.
 Follow your institute's open data and open access policy.
-At INBO, the embargo period cannot be longer than 6 months.
-More details at the [INBO Open Data](https://www.vlaanderen.be/inbo/en-gb/open-data-policy/) and [Open Access](https://www.vlaanderen.be/inbo/en-gb/open-access-policy/) policies.
+INBO has both an [Open Data policy](https://www.vlaanderen.be/inbo/en-gb/open-data-policy/) and an [Open Access policy](https://www.vlaanderen.be/inbo/en-gb/open-access-policy/), which, along with Belgian ([Dutch/French resouce](https://open-access.be/de-open-access-wet/)) and [European](https://ec-europa-eu.libguides.com/open-science/law/eu) laws, provides a framework within which to make decisions regarding the use of embargos versus direct publication. Additionally, despite INBO being an independant research organ, it is still part of the Flemish government and therefore certain data, documentation and outputs are also governed by the Belgian ["Transparency in public administration" ("Openbaarheid van bestuur") legislation](https://www.vlaanderen.be/uw-overheid/werking-en-structuur-van-de-vlaamse-overheid/hoe-werkt-de-vlaamse-overheid/informatie-en-communicatie/toegang-tot-bestuursdocumenten-via-openbaarheid-van-bestuur)(Dutch resource). 
+We are currently working on specific guidelines for eDNA data, including publication timelines, which will be included in a future update. 
