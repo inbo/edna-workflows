@@ -124,8 +124,6 @@ Conventions:
 
 Upon registration in the CMS, the sample ID may be extended with additional components to reflect further processing steps or linkage to project metadata.
 
-**[placeholder, to include definition of CMS, a bit more explanation, and what this means for registration of a sample, which additional conventions must be taken into account]**
-
 For downstream processing, whether this entails registration and follow-up through the CMS or statistical analyses and dataset creation for Zenodo or GBIF publication, more detailed suffixes or additional identifier components may be added, for which the metadata is already available in the sampling sheet.
 These choices may reflect the specific research question or analysis at hand, but should always build on the base sample ID convention, either as described above or as decided upon at the start of the project.
 This ensures traceability back to the original sample across all datasets and publications, which is crucial!
@@ -189,8 +187,6 @@ For a sample or specimen to be eligible for long-term storage in the INBO collec
 - The sample was ethically and legally obtained
 - The sample is relevant to Flemish biodiversity
 
-**[placeholder, shortly introduce and link to publication "The “Key” to Bringing DNA Collections to the Next Level: A DiSSCo Flanders Working Group Product", doi https://doi.org/10.3897/rio.10.e135978]**
-
 Note that embargoes may be applied here in two ways: on the data generated through the eDNA workflow, and on the physical sample in the collection.
 The embargo on the physical sample allows analyses to be completed before the sample appears in the publicly accessible version of the collection inventory.
 
@@ -237,7 +233,7 @@ Examples:
 - A step-by-step protocol of the bioinformatics analysis pipeline
 
 At INBO, the development of bioinformatics protocols typically follows a two-stage documentation process.
-Working notes, how-to pages, and tutorials are first developed and maintained on internal platforms — previously Confluence, now BookStack **[placeholder: add link to relevant BookStack pages]** — allowing team members to collaboratively figure out and refine analytical steps.
+Working notes, how-to pages, and tutorials are first developed and maintained on internal platforms — previously Confluence, now [BookStack](https://www.bookstackapp.com/) — allowing team members to collaboratively figure out and refine analytical steps.
 Once a pipeline or protocol step is sufficiently mature, a versioned, publication-ready version is documented on GitHub for version control and public accessibility.
 The INBO code base repository is currently under review and will be made available soon.
 
@@ -278,8 +274,6 @@ Ensure there is a clear `README` with all savepoints, including the script/steps
 
 Per sample, maintain naming conventions as described in the Sample Collection checkpoint.
 For bioinformatic processes, a translated digit-only version of the sample ID is created, which can always be traced back via the sample sheet.
-
-**[Placeholder, explain concept and example format of samplesheetID for MB runs]**
 
 Consistent naming and folder structure at this stage is important to automate downstream workflows and avoid mistakes in subsequent steps.
 
