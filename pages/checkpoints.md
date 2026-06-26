@@ -233,7 +233,7 @@ Examples:
 - A step-by-step protocol of the bioinformatics analysis pipeline
 
 At INBO, the development of bioinformatics protocols typically follows a two-stage documentation process.
-Working notes, how-to pages, and tutorials are first developed and maintained on internal platforms — previously Confluence, now BookStack **[placeholder: add link to relevant BookStack pages]** — allowing team members to collaboratively figure out and refine analytical steps.
+Working notes, how-to pages, and tutorials are first developed and maintained on internal platforms — previously Confluence, now [BookStack](https://www.bookstackapp.com/) — allowing team members to collaboratively figure out and refine analytical steps.
 Once a pipeline or protocol step is sufficiently mature, a versioned, publication-ready version is documented on GitHub for version control and public accessibility.
 The INBO code base repository is currently under review and will be made available soon.
 
