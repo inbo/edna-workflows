@@ -275,8 +275,6 @@ Ensure there is a clear `README` with all savepoints, including the script/steps
 Per sample, maintain naming conventions as described in the Sample Collection checkpoint.
 For bioinformatic processes, a translated digit-only version of the sample ID is created, which can always be traced back via the sample sheet.
 
-**[Placeholder, explain concept and example format of samplesheetID for MB runs]**
-
 Consistent naming and folder structure at this stage is important to automate downstream workflows and avoid mistakes in subsequent steps.
 
 ### Is it necessary to update the DMP?
