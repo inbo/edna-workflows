@@ -124,8 +124,6 @@ Conventions:
 
 Upon registration in the CMS, the sample ID may be extended with additional components to reflect further processing steps or linkage to project metadata.
 
-**[placeholder, to include definition of CMS, a bit more explanation, and what this means for registration of a sample, which additional conventions must be taken into account]**
-
 For downstream processing, whether this entails registration and follow-up through the CMS or statistical analyses and dataset creation for Zenodo or GBIF publication, more detailed suffixes or additional identifier components may be added, for which the metadata is already available in the sampling sheet.
 These choices may reflect the specific research question or analysis at hand, but should always build on the base sample ID convention, either as described above or as decided upon at the start of the project.
 This ensures traceability back to the original sample across all datasets and publications, which is crucial!
