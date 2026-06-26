@@ -187,8 +187,6 @@ For a sample or specimen to be eligible for long-term storage in the INBO collec
 - The sample was ethically and legally obtained
 - The sample is relevant to Flemish biodiversity
 
-**[placeholder, shortly introduce and link to publication "The “Key” to Bringing DNA Collections to the Next Level: A DiSSCo Flanders Working Group Product", doi https://doi.org/10.3897/rio.10.e135978]**
-
 Note that embargoes may be applied here in two ways: on the data generated through the eDNA workflow, and on the physical sample in the collection.
 The embargo on the physical sample allows analyses to be completed before the sample appears in the publicly accessible version of the collection inventory.
 
