@@ -35,3 +35,15 @@
   bluesky: damianooldoni.bsky.social
   mastodon: https://fosstodon.org/@damianooldoni
   email: damiano.oldoni@inbo.be
+
+- name: Nick Dillen
+  role: Bioinformatician
+  image: 
+  description: >
+    Nick is your contact for questions or feedback regarding the bioinformatics presented on this website. As a bioinformaticion, 
+    he bridges the experimental ("wet") laboratory with the scientific data analysis. He loves to explore all aspects of computational biology, 
+    ranging from ecology, statistics and data science to software development and ICT.
+  orcid: 0000-0002-2733-433X
+  github: nick-dil
+  email: nick.dillen@inbo.be
+  
