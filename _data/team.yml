@@ -35,7 +35,18 @@
   orcid: 0000-0002-2733-433X
   github: nick-dil
   email: nick.dillen@inbo.be
-
+  
+- name: Rein Brys
+  role: (e)DNA researcher
+  image: assets/images/foto_ReinBrys.jpg
+  description: >
+    Rein (he/him) is a senior eDNA researcher at INBO, coordinating the group's research on biodiversity monitoring 
+    and conservation through DNA barcoding and metabarcoding, applied to the detection of rare and protected species, as well as invasive species. 
+    He is your contact point for the broader scientific direction of the group's eDNA work.
+  orcid: 0000-0002-0688-3268
+  researchgate: https://www.researchgate.net/profile/Rein-Brys
+  email: rein.brys@inbo.be
+  
 - name: Damiano Oldoni
   role: Research software engineer
   image: https://avatars2.githubusercontent.com/u/33662631?s=400&v=4
