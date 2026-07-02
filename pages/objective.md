@@ -50,7 +50,28 @@ The intention is for one or more team members to take responsibility for carryin
 The same person can carry out all checkpoints, but this isn't obligatory.
 
 The principles and practices described in this workflow are general in nature, continuously evolving, and developed in congruence with existing and emerging international network initiatives.
-These include, among others, [eDNAqua-Plan](https://ednaquaplan.com/), [COST eDNA4Policy](https://www.cost.eu/actions/CA25163/), [COST DNABARDIV](https://www.cost.eu/actions/CA25120/) and the ECOSTAT (e)DNA Working Group advising under the Water Framework Directive. Moreover, the work stems from a series of previous, or ongoing international projects including [Life SmartIAS](https://www.vlaanderen.be/inbo/en-GB/projects/life-smart-ias-evinbo), [Interegg Otter over de Grens](https://www.vlaanderen.be/inbo/en-GB/projects/interreg-otter-over-de-grens-evinbo), [GuardIAS](https://guardias.eu/), [3n-Stierkikker](https://natuurenbos.be/projecten/life-3n-bullfrog) and [BiodivPond](https://www.biodiversa.eu/biodiversity-monitoring/pilots/biodivpond/). 
+These include, among others, [eDNAqua-Plan](https://ednaquaplan.com/), [COST eDNA4Policy](https://www.cost.eu/actions/CA25163/), [COST DNABARDIV](https://www.cost.eu/actions/CA25120/) and the ECOSTAT (e)DNA Working Group advising under the Water Framework Directive.
+ 
+Moreover, the work stems from a series of previous, or ongoing international projects including:
+
+<p class="d-flex justify-content-between align-items-center">
+  <a href="https://www.vlaanderen.be/inbo/en-GB/projects/life-smart-ias-evinbo" style="width: 18%">
+    <img src="{{ '/assets/images/logo_lifesmartias.png' | relative_url }}" alt="Life SmartIAS">
+  </a>
+  <a href="https://www.vlaanderen.be/inbo/en-GB/projects/interreg-otter-over-de-grens-evinbo" style="width: 23%">
+    <img src="{{ '/assets/images/logo_interregotteroverdegrens.png' | relative_url }}" alt="Interreg Otter over de Grens">
+  </a>
+  <a href="https://guardias.eu/" style="width: 15%">
+    <img src="{{ '/assets/images/logo_guardias.png' | relative_url }}" alt="GuardIAS">
+  </a>
+  <a href="https://natuurenbos.be/projecten/life-3n-bullfrog" style="width: 12%">
+    <img src="{{ '/assets/images/logo_3nstierkikker.png' | relative_url }}" alt="3n-Stierkikker">
+  </a>
+  <a href="https://www.biodiversa.eu/biodiversity-monitoring/pilots/biodivpond/" style="width: 12%">
+    <img src="{{ '/assets/images/logo_biodivpond.png' | relative_url }}" alt="BiodivPond">
+  </a>
+</p>
+
 We welcome feedback and contributions from the community — if you notice gaps or opportunities for alignment with other initiatives, please do not hesitate to get in touch.
 
 Next read: [Checkpoints]({{ '/checkpoints/' | relative_url }}).
