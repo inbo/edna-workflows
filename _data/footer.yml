@@ -6,7 +6,7 @@ columns:
   - description: |
       [![INBO logo](/edna-workflows/assets/images/logo_inbo.jpg){:.img-fluid}](https://www.vlaanderen.be/inbo/en-gb/homepage/)
   - description:  # E.g. funding acknowledgement. Can be Markdown
-      This website is being developed in the framework of the [GuardIAS](https://guardias.eu/) project. GuardIAS receives funding from the European Union’s Horizon Europe Research and Innovation Programme (ID No 101181413).
+      This website is being developed in the framework of the [GuardIAS](https://guardias.eu/) project. GuardIAS receives funding from the European Union’s Horizon Europe Research and Innovation Programme (ID No 101181413). Funded by the European Union. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Research Executive Agency (REA). Neither the European Union nor the granting authority can be held responsible for them.
 
 # Small print license statement to add at the bottom of the footer. Can be Markdown
 # Will be prefixed by "© {{ site.author }}" if defined in _config.yml
